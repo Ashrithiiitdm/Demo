@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities</title>
+    <link rel="stylesheet" href="facilities.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<script>
+    // Wait for the page to fully load
+    window.addEventListener('load', function() {
+        // After 2 seconds (2000 milliseconds), remove the loader and overlay
+        setTimeout(function() {
+            var loader = document.getElementById('loader');
+            var overlay = document.querySelector('.overlay');
+            if (loader && overlay) {
+                loader.remove();
+                overlay.remove();
+            }
+        }, 500); // Adjust this value (in milliseconds) for the desired duration
+    });
+</script>
+
+<body>
+    <div class="loading-overlay" id="loader">
+        <img class="loading-logo" src="/pages/IIITDM logo.png" alt="Organization Logo">
+    </div>
+    <div class="overlay"></div>
+    
+
+       <header>
+        <div class="top">
+            <div class="logo-div"><img class="logo" src="/pages/title_logo.webp"></div>
+            <div class="container-nav-sign">
+                <div class="nav_bar">
+                    <nav class="navigation">
+                        <li class="nav_item"><a href="./home.html" class="nav_link">Home</a></li>
+                        <li class="nav_item"><a href="./facilities.html" class="nav_link">Facilities</a></li>
+                        <li class="nav_item"><a href="./register.html" class="nav_link">Register</a></li>
+                        <li class="nav_item"><a href="./about.html" class="nav_link">About</a></li>
+                        <li class="nav_item"><a href="./contact.html" class="nav_link">Contact</a></li>
+                    </nav>
+                </div>
+                <!--<div class="sign-in-box">
+                    <a href="#" class="sign-in-button">Sign In</a>
+                </div>-->
+                <div class="end-div">
+                    <div class="sign-in-box">
+                        <a href="#" class="sign-in-button">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="bottom">
+        <marquee class="marq-text" behavior="scroll" direction="left">IIITDM Kancheepuram is not college, It's Institute</marquee>
+    </div>
+    <div class="heading-container">
+        <h1 class="my-5 text-2xl font-medium text-complementary">Sports Facilities</h1>
+        <hr class="heading-line">
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a target="_blank" href="https://iiitdm.ac.in/">IIITDM Website</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/iiitdmkancheepuram/">Instagram</a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/school/indian-institute-of-information-technology-design-&-manufacturing-kancheepuram/">Linkedin</a></li>
+                    <!-- Add more links as needed -->
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>Email: example@example.com</li>
+                    <li>Phone: +1234567890</li>
+                    <li>Address: IIITDM Kancheepuram
+
+                        Off Vandalur-Kelambakkam Road
+                        
+                        Chennai-600127</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 IIITDM Kancheepuram. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
